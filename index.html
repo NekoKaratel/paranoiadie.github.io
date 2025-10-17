@@ -1,0 +1,80 @@
+<html lang="ru"><head></head><body>﻿
+
+    
+        <meta charset="utf-8">
+        <title id="html__title">Pranoiadie</title>
+        <meta name="theme-color" content="#ffffff">
+        <meta property="og:title" content="Pranoiadie">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Разработчик" data-react-helmet="true">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" href="styles/all.css">
+    
+    
+        <div class="background" id="background">   
+            <div class="displayrow" id="displayrow">
+                <div class="row" id="row">
+                    <div class="image" id="image_avatar">
+                        <img src="https://media.discordapp.net/attachments/1413223928473583688/1428854284237144114/e8e3669e-08d7-4aed-993b-acbf38d540a9.jpg?ex=68f403c0&is=68f2b240&hm=21675032158e8c0376f198555de887fa1740df4af85812c5d99be5edf9bcc20b&=&format=webp&width=968&height=968" width="300" height="300" alt="avatar" style="border-radius: 100%;border: 2px solid #ffffff;">
+                    </div>
+                    <div class="info" id="info">
+                        <h1 id="nickname">Paranoiadie</h1>
+                        <div class="buttons" id="buttons" style="z-index: 6;">
+                            <p style="display: inline-block;">
+                                <a href="https://t.me/mimivers" class="button button-github">TELEGRAM</a>
+                            </p>
+                            <p style="display: inline-block;">
+                                <a href="https://discord.com/users/762381532131491842" class="button button-tiktok">DISCORD</a>
+                            </p>
+                            <p style="display: inline-block;">
+                                <a href="https://www.twitch.tv/mimivers" class="button button-youtube">TWITCH</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="manager" id="manager">
+                    <span>По всем вопросам обращайтесь к: </span>
+                    <a href="https://discord.com/users/691389577541320716" class="button button-dis">WANNA DIE</a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            document.onkeydown = function(e) {
+                if(event.keyCode == 123) {
+                    return false
+                }
+
+                if(e.ctrlKey && e.shiftKey && e.keyCode === 'I'.charCodeAt(0)){
+                    return false
+                }
+                
+                if(e.ctrlKey && e.shiftKey && e.keyCode === 'J'.charCodeAt(0)){
+                    return false
+                }
+
+                if(e.ctrlKey && e.keyCode === 'U'.charCodeAt(0)){
+                    return false
+                }
+            }
+        </script>
+        <script src="scripts/three.min.js"></script>
+        <script src="scripts/vanta.net.min.js"></script>
+        <script>
+        VANTA.NET({
+            el: "#background",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xd78799,
+            backgroundColor: 0x0,
+            points: 13.00,
+            spacing: 14.00
+        })
+        </script>
+    
+
+</body></html>
